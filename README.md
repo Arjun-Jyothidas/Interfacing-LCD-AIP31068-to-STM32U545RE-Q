@@ -5,3 +5,4 @@ https://support.newhavendisplay.com/hc/en-us/article_attachments/4414498095511
 The target microcontroller - STM32U545RE-Q is selected in the STMCubeMX, matching the hardware.
 LCD is initialized by the respective commands as described in the data sheet of the LCD controller.
 Following main code includes the initialization of the LCD module, sending commands and data to the LCD and displaying a moving word.
+Communication between LCD 1602 module and the microcontroller is through I2C communication protocol.
